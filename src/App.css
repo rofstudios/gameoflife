@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-self: center; */
+  align-items: center;
+  width: 50%;
+  border: #61dafb solid 1px;
+}
+.rules {
+  border: solid 1px springgreen;
+}
